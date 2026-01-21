@@ -136,6 +136,7 @@ This mirrors the Zenodo versioning explanation from the dataset clinic.
 Timing: 3 min
 Set clear expectations: this is a hands-on exercise.
 Encourage participants to ask questions if stuck at any step.
+Put a thumbs up in shared notes for each step when you're ready to move on
 :::
 
 ---
@@ -155,7 +156,7 @@ Explain that forking allows them to experiment without affecting the original re
 
 ## Step 2: Make a Change
 
-* Edit the README or metadata file
+* Edit the README
 * Commit your changes with a meaningful message
 * Push to your fork
 
@@ -189,6 +190,7 @@ Live demo, walk through it together.
 ::: notes
 Timing: 3 min
 Highlight that each release gets a unique DOI but all point back to the concept DOI.
+This one they do on their own.
 :::
 
 ---
@@ -201,6 +203,8 @@ Look at successful uses of this mechanism:
 * [Zenodo record 5708827](https://zenodo.org/records/5708827)
 * [Zenodo record 5708345](https://zenodo.org/records/5708345)
 
+Note to Steve - add screenshots of examples and reference at the beginning too. Maybe find examples of instruments, pipelines and analysis. Parallel slide 'where wil you use this?'
+
 ::: notes
 Timing: 3 min
 Point out how each release has its own DOI, while the concept DOI points to all versions.
@@ -210,13 +214,11 @@ Point out how each release has its own DOI, while the concept DOI points to all 
 
 ## Step 6: Reflection
 
-* How does this workflow help reproducibility?
-* What challenges did you encounter?
 * Could you explain this to a collaborator?
 
 ::: notes
 Timing: 5 min
-Encourage participants to share experiences and ask clarifying questions.
+Encourage participants to share experiences and ask clarifying questions. You will be asked to suggest and/or participate in mechanisms like this as a professional.
 :::
 
 ---
