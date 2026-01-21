@@ -10,41 +10,113 @@ date: 2025-01-29
 format: revealjs
 ---
 
-## Why publish code?
+## Why publish code? 
 
-- Increase reproducibility and FAIR-ness
-- Make life easier for future you
-- Enable reuse and extension
-- Get credit for software as a research output
+::: columns
+
+<br> 
+
+::: column
+#### 1 Better World
+![](assets/science_around_the_world.png){width=100 .float-left}
+![](assets/fair.png){width=300}
+
+:::
+
+::: column
+#### 2 Better Future
+![](assets/content_person.png){width=100 .float-left}
+<div class="small-text">
+_make life easier!_
+<br>
+_reduce self-loathing!_
+</div>
+:::
+:::
+
+::: columns
+
+::: column
+#### 3 Enable Science
+![](assets/tetris.png){width=80 .float-left}
+<div class="small-text">
+_drive reuse!_
+<br>
+_and extension!_
+</div>
+:::
+
+::: column
+#### 4 Get Credit
+![](assets/get_credit.png){width=80 .float-left}
+<div class="small-text">
+_credit is the currency of science!_
+<br>
+_mo' money, less problems!_
+</div>
+:::
+
+:::
 
 ::: notes
 Timing: 2 min  
 Set expectations. This is about concepts first, mechanics second.  
 Emphasize that this mirrors data publishing practices participants may already know.
-
+1. Increase FAIR-ness
+2. Make life easier for future you
+3. Enable reuse and extension
+4. Get credit for software as a research output
 :::
 
 ---
 
-## The long view
+## The long view: a haiku.
 
-- Science outlives tools and platforms
-- Papers persist; links rot
-- Without snapshots, methods cannot be verified
+::: columns
+
+::: column
+<br>
+<div style="text-align: center;">
+_science lives when tools_
+
+_fade. Links rot but snapshots save_
+
+_your work from the void_
+</div>
+:::
+
+::: column
+<div style="border-radius: 10px; overflow: hidden; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block; text-align: center; padding-top: 14px; margin-bottom: -20px;">
+<iframe width="800" height="280" 
+  src="https://www.youtube.com/embed/CZzQhiNQXxU?autoplay=1&mute=1&start=25" 
+  allow="autoplay; encrypted-media" 
+  allowfullscreen>
+</iframe>
+<div style="font-size: 0.4em; margin-top: -35px;">
+<span style="display: block;">Whale Fall Actively Devoured by Scavengers at Davidson Seamount, Nautilus Live (2019)</span>
+<span style="display: block; font-size: 0.8em;"><a href="https://www.youtube.com/watch?v=CZzQhiNQXxU">https://www.youtube.com/watch?v=CZzQhiNQXxU</a></span>
+</div>
+</div>
+:::
+
+:::
 
 ::: notes
-Timing: 1 min  
+Timing: 1 min 
+Science outlives tools and platforms.
+Papers persist. Links rot.
+Without snapshots, methods cannot be verified.
 :::
+
 
 ---
 
-## GitHub is not an archive
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" width="225" style="vertical-align: middle;"/> is not an archive
 
-- Excellent for collaboration
-- Moving target
-- No preservation guarantee
-- Not designed for citation
-- owned by private corporation (Microsoft)
+- _Excellent for collaboration_
+- _No preservation guarantee_
+- _Not designed for citation_
+- _owned by private corporation (Microsoft)_
 
 ::: notes
 Timing: 1 min  

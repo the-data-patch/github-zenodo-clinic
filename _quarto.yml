@@ -1,16 +1,25 @@
 project:
   type: website
 
+license:
+  type: "CC BY-NC"
+  text: "CC BY-NC 4.0"
+  link: "https://creativecommons.org/licenses/by-nc/4.0/"
+
+
+
 format:
   revealjs:
     theme: simple
-    css: theme.css
+    css: [thedatapatch_theme.scss, custom.css]
     slide-number: true
     incremental: false
-    transition: fade
+    transition: none
     center: true
     footer: |
-      <img src="assets/the_data_patch_logo.png" style="height:60px; vertical-align:middle;"> www.thedatapatch.com
+      © 2026 [The Data Patch](https://www.thedatapatch.com) <a href="https://www.thedatapatch.com" target="_blank"><img src="assets/the_data_patch_logo.png" style="height:50px; vertical-align:middle;"></a> License: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+        
+
 
 execute:
   freeze: auto
