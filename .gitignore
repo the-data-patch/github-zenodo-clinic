@@ -1,0 +1,25 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+.local/
+
+# Quarto generated files
+/.quarto/
+_site
+# Temporary files
+\#*
+*~
+
+_freeze/
+_publish/
+output/
+results/
+temp/
+docs/
+*.html
+*.pdf
+*.tex
+*.typ
+*-revealjs.html
