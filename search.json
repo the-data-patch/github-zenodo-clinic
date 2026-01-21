@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "index.html#why-publish-code",
+    "href": "index.html#why-publish-code",
+    "title": "Publishing Code",
+    "section": "Why publish code?",
+    "text": "Why publish code?\n\nIncrease reproducibility and FAIR-ness\nMake life easier for future you\nEnable reuse and extension\nGet credit for software as a research output\n\n\nTiming: 2 min\nSet expectations. This is about concepts first, mechanics second.\nEmphasize that this mirrors data publishing practices participants may already know."
+  },
+  {
+    "objectID": "index.html#the-long-view",
+    "href": "index.html#the-long-view",
+    "title": "Publishing Code",
+    "section": "The long view",
+    "text": "The long view\n\nScience outlives tools and platforms\nPapers persist; links rot\nWithout snapshots, methods cannot be verified\n\n\nTiming: 1 min"
+  },
+  {
+    "objectID": "index.html#github-is-not-an-archive",
+    "href": "index.html#github-is-not-an-archive",
+    "title": "Publishing Code",
+    "section": "GitHub is not an archive",
+    "text": "GitHub is not an archive\n\nExcellent for collaboration\nMoving target\nNo preservation guarantee\nNot designed for citation\nowned by private corporation (Microsoft)\n\n\nTiming: 1 min\nBe explicit that this is not anti-GitHub.\nGitHub does its job very well. It just does not do this job."
+  },
+  {
+    "objectID": "index.html#what-is-a-code-archive",
+    "href": "index.html#what-is-a-code-archive",
+    "title": "Publishing Code",
+    "section": "What is a code archive?",
+    "text": "What is a code archive?\nA code archive is:\n\nPersistent with PID\nFindable and citable\nImmutable once published\nBacked by long-term infrastructure\n\n\nTiming: 1 min"
+  },
+  {
+    "objectID": "index.html#zenodo-for-code",
+    "href": "index.html#zenodo-for-code",
+    "title": "Publishing Code",
+    "section": "Zenodo (for code)",
+    "text": "Zenodo (for code)\n\nGeneralist research repository\nFree and widely used\nIssues DOIs via DataCite\nIntegrates with GitHub releases\noperated by CERN\n\n\nTiming: 1 min\nDo not go deep here. Zenodo is familiar enough.\nWe are focusing on the GitHub integration. CERN == European Organization for Nuclear Research, an intergovernmental organization funded by 23 member states"
+  },
+  {
+    "objectID": "index.html#github-zenodo-model",
+    "href": "index.html#github-zenodo-model",
+    "title": "Publishing Code",
+    "section": "GitHub + Zenodo model",
+    "text": "GitHub + Zenodo model\n\nGitHub: active development\nZenodo: frozen snapshots\n\nGitHub is where code lives\nZenodo is where code is cited\n\nTiming: 1 min"
+  },
+  {
+    "objectID": "index.html#where-will-you-use-this",
+    "href": "index.html#where-will-you-use-this",
+    "title": "Publishing Code",
+    "section": "Where will you use this?",
+    "text": "Where will you use this?\n\nInstrument development\n\nPipeline development\n\nAnalysis iteration\n\n\nTiming: 2 min\nAsk students to come up with examples"
+  },
+  {
+    "objectID": "index.html#versioning-and-dois",
+    "href": "index.html#versioning-and-dois",
+    "title": "Publishing Code",
+    "section": "Versioning and DOIs",
+    "text": "Versioning and DOIs\n\nEach GitHub release creates a new Zenodo version\nEach version gets its own DOI\nOne concept DOI always points to the latest version\n\n\nTiming: 2 min\nThis mirrors the Zenodo versioning explanation from the dataset clinic."
+  },
+  {
+    "objectID": "index.html#lets-practice",
+    "href": "index.html#lets-practice",
+    "title": "Publishing Code",
+    "section": "Let’s Practice",
+    "text": "Let’s Practice"
+  },
+  {
+    "objectID": "index.html#pre-work",
+    "href": "index.html#pre-work",
+    "title": "Publishing Code",
+    "section": "Pre-work",
+    "text": "Pre-work\n\nMake a GitHub account\n\n\nTiming: 3 min Set clear expectations: this is a hands-on exercise. Encourage participants to ask questions if stuck at any step. Put a thumbs up in shared notes for each step when you’re ready to move on"
+  },
+  {
+    "objectID": "index.html#step-1-fork-the-repository",
+    "href": "index.html#step-1-fork-the-repository",
+    "title": "Publishing Code",
+    "section": "Step 1: Fork the Repository",
+    "text": "Step 1: Fork the Repository\n\nGo to the example repo on GitHub\nClick Fork (top right)\nYou now have your own copy under your account\n\n\nTiming: 2 min Explain that forking allows them to experiment without affecting the original repo."
+  },
+  {
+    "objectID": "index.html#step-2-make-a-change",
+    "href": "index.html#step-2-make-a-change",
+    "title": "Publishing Code",
+    "section": "Step 2: Make a Change",
+    "text": "Step 2: Make a Change\n\nEdit the README\nCommit your changes with a meaningful message\nPush to your fork\n\n\nTiming: 3 min Encourage small, safe changes to build confidence."
+  },
+  {
+    "objectID": "index.html#step-3-publish-to-zenodo-sandbox",
+    "href": "index.html#step-3-publish-to-zenodo-sandbox",
+    "title": "Publishing Code",
+    "section": "Step 3: Publish to Zenodo Sandbox",
+    "text": "Step 3: Publish to Zenodo Sandbox\n\nLog in to Zenodo sandbox\nActivate the repository you forked\nCreate a GitHub release (tag your commit)\nZenodo generates a DOI for the release\n\n\nTiming: 5 min Live demo, walk through it together."
+  },
+  {
+    "objectID": "index.html#step-4-make-additional-changes",
+    "href": "index.html#step-4-make-additional-changes",
+    "title": "Publishing Code",
+    "section": "Step 4: Make Additional Changes",
+    "text": "Step 4: Make Additional Changes\n\nUpdate code or documentation\nCreate a new release on GitHub\nObserve new DOI generated by Zenodo\n\n\nTiming: 3 min Highlight that each release gets a unique DOI but all point back to the concept DOI. This one they do on their own."
+  },
+  {
+    "objectID": "index.html#step-5-explore-examples",
+    "href": "index.html#step-5-explore-examples",
+    "title": "Publishing Code",
+    "section": "Step 5: Explore Examples",
+    "text": "Step 5: Explore Examples\nLook at successful uses of this mechanism:\n\nZenodo record 18087438\nZenodo record 5708827\nZenodo record 5708345\n\nNote to Steve - add screenshots of examples and reference at the beginning too. Maybe find examples of instruments, pipelines and analysis. Parallel slide ‘where wil you use this?’\n\nTiming: 3 min Point out how each release has its own DOI, while the concept DOI points to all versions."
+  },
+  {
+    "objectID": "index.html#step-6-reflection",
+    "href": "index.html#step-6-reflection",
+    "title": "Publishing Code",
+    "section": "Step 6: Reflection",
+    "text": "Step 6: Reflection\n\nCould you explain this to a collaborator?\n\n\nTiming: 5 min Encourage participants to share experiences and ask clarifying questions. You will be asked to suggest and/or participate in mechanisms like this as a professional."
+  }
+]
