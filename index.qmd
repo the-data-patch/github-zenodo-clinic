@@ -127,13 +127,16 @@ GitHub does its job very well. It just does not do this job.
 ---
 
 ## What is a code archive?
+![](assets/archive.png){width=200 .float-left} 
 
-A code archive is:
+<br>
+_Persistent and referenced via PID_
 
-- Persistent with PID
-- Findable and citable
-- Immutable once published
-- Backed by long-term infrastructure
+_Findable and citable_
+
+_Immutable once published_
+
+_Backed by long-term infrastructure_
 
 ::: notes
 Timing: 1 min  
@@ -141,13 +144,17 @@ Timing: 1 min
 
 ---
 
-## Zenodo (for code)
+## <img src="https://about.zenodo.org/static/img/logos/zenodo-gradient-round.svg" width="400" style="vertical-align: middle;"/> (for code)
 
-- Generalist research repository
-- Free and widely used
-- Issues DOIs via DataCite
-- Integrates with GitHub releases
-- operated by CERN
+_Generalist research repository_
+
+_Free and widely used_
+
+_Issues DOIs via DataCite_
+
+_Integrates with GitHub releases_
+
+_operated by CERN_
 
 ::: notes
 Timing: 1 min  
@@ -158,13 +165,11 @@ CERN == European Organization for Nuclear Research, an intergovernmental organiz
 
 ---
 
-## GitHub + Zenodo model
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" width="225" style="vertical-align: bottom;"/> + <img src="https://about.zenodo.org/static/img/logos/zenodo-gradient-round.svg" width="400" style="vertical-align: middle;"/> model
+<br>
+_GitHub: active development | where code lives_
 
-- **GitHub**: active development
-- **Zenodo**: frozen snapshots
-
-**GitHub is where code lives  
-Zenodo is where code is cited**
+_Zenodo: frozen snapshots | where code is cited_
 
 ::: notes
 Timing: 1 min  
@@ -174,9 +179,11 @@ Timing: 1 min
 
 ## Where will you use this?
 
-- Instrument development  
-- Pipeline development  
-- Analysis iteration  
+![](assets/instrument.png){width=100 style="vertical-align: middle;"} _Instrument development_
+
+![](assets/pipeline.png){width=100 style="vertical-align: middle;"} _Pipeline development_
+
+![](assets/analysis.png){width=100 style="vertical-align: middle;"} _Analysis iteration_
 
 ::: notes
 Timing: 2 min  
@@ -187,9 +194,11 @@ Ask students to come up with examples
 
 ## Versioning and DOIs
 
-- Each GitHub release creates a new Zenodo version
-- Each version gets its own DOI
-- One concept DOI always points to the latest version
+_Each GitHub release → new Zenodo version_
+
+_Each version gets its own ![](https://upload.wikimedia.org/wikipedia/commons/1/11/DOI_logo.svg){width=60 style="vertical-align: middle;"}_
+
+_One parent 'concept' ![](https://upload.wikimedia.org/wikipedia/commons/1/11/DOI_logo.svg){width=60 style="vertical-align: middle;"} always points to the latest version_
 
 ::: notes
 Timing: 2 min  
@@ -200,9 +209,11 @@ This mirrors the Zenodo versioning explanation from the dataset clinic.
 
 ## Let's Practice
 
-## Pre-work
+## Pre-work: 
 
-* Make a GitHub account
+_did you make a_ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" width="100" style="vertical-align: middle;"/> _account?_
+
+_If not, do it <a href="https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github">here</a>_
 
 ::: notes
 Timing: 3 min
