@@ -25,35 +25,35 @@
     "href": "index.html#what-is-a-code-archive",
     "title": "Publishing Code",
     "section": "What is a code archive?",
-    "text": "What is a code archive?\nA code archive is:\n\nPersistent with PID\nFindable and citable\nImmutable once published\nBacked by long-term infrastructure\n\n\nTiming: 1 min"
+    "text": "What is a code archive?\n\n Persistent and referenced via PID\nFindable and citable\nImmutable once published\nBacked by long-term infrastructure\n\nTiming: 1 min"
   },
   {
-    "objectID": "index.html#zenodo-for-code",
-    "href": "index.html#zenodo-for-code",
+    "objectID": "index.html#for-code",
+    "href": "index.html#for-code",
     "title": "Publishing Code",
-    "section": "Zenodo (for code)",
-    "text": "Zenodo (for code)\n\nGeneralist research repository\nFree and widely used\nIssues DOIs via DataCite\nIntegrates with GitHub releases\noperated by CERN\n\n\nTiming: 1 min\nDo not go deep here. Zenodo is familiar enough.\nWe are focusing on the GitHub integration. CERN == European Organization for Nuclear Research, an intergovernmental organization funded by 23 member states"
+    "section": " (for code)",
+    "text": "(for code)\nGeneralist research repository\nFree and widely used\nIssues DOIs via DataCite\nIntegrates with GitHub releases\noperated by CERN\n\nTiming: 1 min\nDo not go deep here. Zenodo is familiar enough.\nWe are focusing on the GitHub integration. CERN == European Organization for Nuclear Research, an intergovernmental organization funded by 23 member states"
   },
   {
-    "objectID": "index.html#github-zenodo-model",
-    "href": "index.html#github-zenodo-model",
+    "objectID": "index.html#model",
+    "href": "index.html#model",
     "title": "Publishing Code",
-    "section": "GitHub + Zenodo model",
-    "text": "GitHub + Zenodo model\n\nGitHub: active development\nZenodo: frozen snapshots\n\nGitHub is where code lives\nZenodo is where code is cited\n\nTiming: 1 min"
+    "section": " +  model",
+    "text": "+  model\n GitHub: active development | where code lives\nZenodo: frozen snapshots | where code is cited\n\nTiming: 1 min"
   },
   {
     "objectID": "index.html#where-will-you-use-this",
     "href": "index.html#where-will-you-use-this",
     "title": "Publishing Code",
     "section": "Where will you use this?",
-    "text": "Where will you use this?\n\nInstrument development\n\nPipeline development\n\nAnalysis iteration\n\n\nTiming: 2 min\nAsk students to come up with examples"
+    "text": "Where will you use this?\n Instrument development\n Pipeline development\n Analysis iteration\n\nTiming: 2 min\nAsk students to come up with examples"
   },
   {
     "objectID": "index.html#versioning-and-dois",
     "href": "index.html#versioning-and-dois",
     "title": "Publishing Code",
     "section": "Versioning and DOIs",
-    "text": "Versioning and DOIs\n\nEach GitHub release creates a new Zenodo version\nEach version gets its own DOI\nOne concept DOI always points to the latest version\n\n\nTiming: 2 min\nThis mirrors the Zenodo versioning explanation from the dataset clinic."
+    "text": "Versioning and DOIs\nEach GitHub release → new Zenodo version\nEach version gets its own \nOne parent ‘concept’  always points to the latest version\n\nTiming: 2 min\nThis mirrors the Zenodo versioning explanation from the dataset clinic."
   },
   {
     "objectID": "index.html#lets-practice",
@@ -66,8 +66,8 @@
     "objectID": "index.html#pre-work",
     "href": "index.html#pre-work",
     "title": "Publishing Code",
-    "section": "Pre-work",
-    "text": "Pre-work\n\nMake a GitHub account\n\n\nTiming: 3 min Set clear expectations: this is a hands-on exercise. Encourage participants to ask questions if stuck at any step. Put a thumbs up in shared notes for each step when you’re ready to move on"
+    "section": "Pre-work:",
+    "text": "Pre-work:\ndid you make a  account?\nIf not, do it here\n\nTiming: 3 min Set clear expectations: this is a hands-on exercise. Encourage participants to ask questions if stuck at any step. Put a thumbs up in shared notes for each step when you’re ready to move on"
   },
   {
     "objectID": "index.html#step-1-fork-the-repository",
