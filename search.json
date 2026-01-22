@@ -4,21 +4,21 @@
     "href": "index.html#why-publish-code",
     "title": "Publishing Code",
     "section": "Why publish code?",
-    "text": "Why publish code?\n\nIncrease reproducibility and FAIR-ness\nMake life easier for future you\nEnable reuse and extension\nGet credit for software as a research output\n\n\nTiming: 2 min\nSet expectations. This is about concepts first, mechanics second.\nEmphasize that this mirrors data publishing practices participants may already know."
+    "text": "Why publish code?\n\n\n1 Better World\n \n\n2 Better Future\n\n\nmake life easier!  reduce self-loathing!\n\n\n\n\n3 Enable Science\n\n\ndrive reuse!  and extension!\n\n\n4 Get Credit\n\n\ncredit is the currency of science!  mo’ money, less problems!\n\n\n\nTiming: 2 min\nSet expectations. This is about concepts first, mechanics second.\nEmphasize that this mirrors data publishing practices participants may already know. 1. Increase FAIR-ness 2. Make life easier for future you 3. Enable reuse and extension 4. Get credit for software as a research output"
   },
   {
-    "objectID": "index.html#the-long-view",
-    "href": "index.html#the-long-view",
+    "objectID": "index.html#the-long-view-a-haiku.",
+    "href": "index.html#the-long-view-a-haiku.",
     "title": "Publishing Code",
-    "section": "The long view",
-    "text": "The long view\n\nScience outlives tools and platforms\nPapers persist; links rot\nWithout snapshots, methods cannot be verified\n\n\nTiming: 1 min"
+    "section": "The long view: a haiku.",
+    "text": "The long view: a haiku.\n\n\n\n\nscience lives when tools\nfade. Links rot but snapshots save\nyour work from the void\n\n\n\n\n\n\nWhale Fall Actively Devoured by Scavengers at Davidson Seamount, Nautilus Live (2019) https://www.youtube.com/watch?v=CZzQhiNQXxU\n\n\n\n\nTiming: 1 min Science outlives tools and platforms. Papers persist. Links rot. Without snapshots, methods cannot be verified."
   },
   {
-    "objectID": "index.html#github-is-not-an-archive",
-    "href": "index.html#github-is-not-an-archive",
+    "objectID": "index.html#is-not-an-archive",
+    "href": "index.html#is-not-an-archive",
     "title": "Publishing Code",
-    "section": "GitHub is not an archive",
-    "text": "GitHub is not an archive\n\nExcellent for collaboration\nMoving target\nNo preservation guarantee\nNot designed for citation\nowned by private corporation (Microsoft)\n\n\nTiming: 1 min\nBe explicit that this is not anti-GitHub.\nGitHub does its job very well. It just does not do this job."
+    "section": " is not an archive",
+    "text": "is not an archive\n\nExcellent for collaboration\nNo preservation guarantee\nNot designed for citation\nowned by private corporation (Microsoft)\n\n\nTiming: 1 min\nBe explicit that this is not anti-GitHub.\nGitHub does its job very well. It just does not do this job."
   },
   {
     "objectID": "index.html#what-is-a-code-archive",

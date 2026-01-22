@@ -31,7 +31,8 @@
     }
   </style>
   <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-0fde88a82f0356838740f155f1088782.css">
-  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="thedatapatch_theme.scss">
+  <link rel="stylesheet" href="custom.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -147,16 +148,35 @@ Stephen Formel <a href="https://orcid.org/0000-0001-7418-1244" class="quarto-tit
 </section>
 <section id="why-publish-code" class="slide level2 center">
 <h2>Why publish code?</h2>
-<ul>
-<li>Increase reproducibility and FAIR-ness</li>
-<li>Make life easier for future you</li>
-<li>Enable reuse and extension</li>
-<li>Get credit for software as a research output</li>
-</ul>
+<div class="columns">
+<p><br></p><div class="column">
+<h4 id="better-world">1 Better World</h4>
+<p><img data-src="assets/science_around_the_world.png" class="float-left" width="100"> <img data-src="assets/fair.png" width="300"></p>
+</div><div class="column">
+<h4 id="better-future">2 Better Future</h4>
+<img data-src="assets/content_person.png" class="float-left" width="100">
+<div class="small-text">
+<p><em>make life easier!</em> <br> <em>reduce self-loathing!</em></p>
+</div>
+</div></div>
+<div class="columns">
+<div class="column">
+<h4 id="enable-science">3 Enable Science</h4>
+<img data-src="assets/tetris.png" class="float-left" width="80">
+<div class="small-text">
+<p><em>drive reuse!</em> <br> <em>and extension!</em></p>
+</div>
+</div><div class="column">
+<h4 id="get-credit">4 Get Credit</h4>
+<img data-src="assets/get_credit.png" class="float-left" width="80">
+<div class="small-text">
+<p><em>credit is the currency of science!</em> <br> <em>mo’ money, less problems!</em></p>
+</div>
+</div></div>
 <aside class="notes">
 <p>Timing: 2 min<br>
 Set expectations. This is about concepts first, mechanics second.<br>
-Emphasize that this mirrors data publishing practices participants may already know.</p>
+Emphasize that this mirrors data publishing practices participants may already know. 1. Increase FAIR-ness 2. Make life easier for future you 3. Enable reuse and extension 4. Get credit for software as a research output</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -169,15 +189,27 @@ Emphasize that this mirrors data publishing practices participants may already k
           display:block!important;
       }</style></aside>
 </section>
-<section id="the-long-view" class="slide level2 center">
-<h2>The long view</h2>
-<ul>
-<li>Science outlives tools and platforms</li>
-<li>Papers persist; links rot</li>
-<li>Without snapshots, methods cannot be verified</li>
-</ul>
+<section id="the-long-view-a-haiku." class="slide level2 center">
+<h2>The long view: a haiku.</h2>
+<div class="columns">
+<div class="column">
+<br>
+<div style="text-align: center;">
+<p><em>science lives when tools</em></p>
+<p><em>fade. Links rot but snapshots save</em></p>
+<p><em>your work from the void</em></p>
+</div>
+</div><div class="column">
+<div style="border-radius: 10px; overflow: hidden; box-shadow: 0 4px 14px rgba(0,0,0,0.15); display: inline-block; text-align: center; padding-top: 14px; margin-bottom: -20px;">
+<iframe width="800" height="280" src="https://www.youtube.com/embed/CZzQhiNQXxU?autoplay=1&amp;mute=1&amp;start=25" allow="autoplay; encrypted-media" allowfullscreen="">
+</iframe>
+<div style="font-size: 0.4em; margin-top: -35px;">
+<p><span style="display: block;">Whale Fall Actively Devoured by Scavengers at Davidson Seamount, Nautilus Live (2019)</span> <span style="display: block; font-size: 0.8em;"><a href="https://www.youtube.com/watch?v=CZzQhiNQXxU">https://www.youtube.com/watch?v=CZzQhiNQXxU</a></span></p>
+</div>
+</div>
+</div></div>
 <aside class="notes">
-<p>Timing: 1 min</p>
+<p>Timing: 1 min Science outlives tools and platforms. Papers persist. Links rot. Without snapshots, methods cannot be verified.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -190,14 +222,13 @@ Emphasize that this mirrors data publishing practices participants may already k
           display:block!important;
       }</style></aside>
 </section>
-<section id="github-is-not-an-archive" class="slide level2 center">
-<h2>GitHub is not an archive</h2>
+<section id="is-not-an-archive" class="slide level2 center">
+<h2><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" width="225" style="vertical-align: middle;"> is not an archive</h2>
 <ul>
-<li>Excellent for collaboration</li>
-<li>Moving target</li>
-<li>No preservation guarantee</li>
-<li>Not designed for citation</li>
-<li>owned by private corporation (Microsoft)</li>
+<li><em>Excellent for collaboration</em></li>
+<li><em>No preservation guarantee</em></li>
+<li><em>Not designed for citation</em></li>
+<li><em>owned by private corporation (Microsoft)</em></li>
 </ul>
 <aside class="notes">
 <p>Timing: 1 min<br>
@@ -488,7 +519,7 @@ This mirrors the Zenodo versioning explanation from the dataset clinic.</p>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
-<p><img src="assets/the_data_patch_logo.png" style="height:60px; vertical-align:middle;"> www.thedatapatch.com</p>
+<p>© 2026 <a href="https://www.thedatapatch.com">The Data Patch</a> <a href="https://www.thedatapatch.com" target="_blank"><img src="assets/the_data_patch_logo.png" style="height:50px; vertical-align:middle;"></a> License: <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a></p>
 </div>
 </div></div>
 
@@ -646,7 +677,7 @@ This mirrors the Zenodo versioning explanation from the dataset clinic.</p>
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'fade',
+        transition: 'none',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',
