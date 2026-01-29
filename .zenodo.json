@@ -1,0 +1,45 @@
+{
+  "title": "Publishing Code: Using GitHub releases and Zenodo DOIs to create citable code snapshots",
+  "description": "Presentation materials for Ocean Data Stewardship workshop at Rutgers Operational Oceanography Program, Session #3. Covers GitHub releases, Zenodo integration, and creating citable code snapshots.",
+  "creators": [
+    {
+      "name": "Formel, Stephen",
+      "affiliation": "The Data Patch",
+      "orcid": "0000-0001-7418-1244"
+    }
+  ],
+  "keywords": [
+    "GitHub",
+    "Zenodo",
+    "code publishing",
+    "reproducible research",
+    "DOI",
+    "software citation",
+    "data stewardship",
+    "ocean data"
+  ],
+  "license": "CC-BY-NC-4.0",
+  "upload_type": "lesson",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://www.intertidalagency.org/",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wing, Kate",
+      "affiliation": "Intertidal Agency",
+      "orcid": "0009-0001-0904-2886",
+      "type": "Other"
+    },
+    {
+      "name": "Blake, Rachael",
+      "affiliation": "Intertidal Agency",
+      "orcid": "0000-0003-0847-9100",
+      "type": "Other"
+    }
+  ]
+}
