@@ -14,6 +14,16 @@ format:
 
 ---
 
+## Examples
+
+![](assets/instrument.png){width=100 style="vertical-align: middle;"} _Instrument: [Low-Cost Water Sampler](https://doi.org/10.5281/zenodo.10257622)_ ![](assets/watersampler.jpeg){width=150 style="vertical-align: middle;"}
+
+![](assets/pipeline.png){width=100 style="vertical-align: middle;"} _Pipeline: [eDNA analysis](https://doi.org/10.5281/zenodo.8144154)_ ![](assets/Tourmaline.png){width=200 style="vertical-align: middle;"}
+
+![](assets/analysis.png){width=100 style="vertical-align: middle;"} _Analysis: [Biodiversity Indicators](https://doi.org/10.5281/zenodo.15113966)_ ![](assets/H3.png){width=120 style="vertical-align: middle;"}
+
+![](assets/documentation-svgrepo-com.png){width=100 style="vertical-align: middle;"} _Documentation: [Workshop](https://doi.org/10.5281/zenodo.7401979)_ ![](assets/smbd_workshop.png){width=150 style="vertical-align: middle;"}
+
 ## Why publish code? 
 
 ::: columns
@@ -117,7 +127,7 @@ Without snapshots, methods cannot be verified.
 
 ---
 
-## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" width="225" style="vertical-align: middle;"/> is not an archive
+## <img src="https://cdn.simpleicons.org/github/white" width="225" style="vertical-align: middle;"/> GitHub is not an archive
 
 - _Excellent for collaboration_
 - _No preservation guarantee_
@@ -171,7 +181,7 @@ CERN == European Organization for Nuclear Research, an intergovernmental organiz
 
 ---
 
-## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" width="225" style="vertical-align: bottom;"/> + <img src="https://about.zenodo.org/static/img/logos/zenodo-gradient-round.svg" width="400" style="vertical-align: middle;"/> model
+## <img src="https://cdn.simpleicons.org/github/white" width="225" style="vertical-align: bottom;"/> + <img src="https://about.zenodo.org/static/img/logos/zenodo-gradient-round.svg" width="400" style="vertical-align: middle;"/> model
 <br>
 _GitHub: active development | where code lives_
 
@@ -190,6 +200,8 @@ Timing: 1 min
 ![](assets/pipeline.png){width=100 style="vertical-align: middle;"} _Pipeline development_
 
 ![](assets/analysis.png){width=100 style="vertical-align: middle;"} _Analysis iteration_
+
+![](assets/documentation-svgrepo-com.png){width=100 style="vertical-align: middle;"} _Code-based documentation_
 
 ::: notes
 Timing: 2 min  
@@ -217,7 +229,7 @@ This mirrors the Zenodo versioning explanation from the dataset clinic.
 
 ## Pre-work: 
 
-_did you make a_ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" width="100" style="vertical-align: middle;"/> _account?_
+_did you make a_ <img src="https://cdn.simpleicons.org/github/white" width="100" style="vertical-align: middle;"/> _account?_
 
 _If not, do it <a href="https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github">here</a>_
 
@@ -232,12 +244,13 @@ Put a thumbs up in shared notes for each step when you're ready to move on
 
 ## Step 1: Fork the Repository
 
-1. Go to the example repo on GitHub
+1. Go to the example repo on GitHub (https://github.com/the-data-patch/do-watcha-wanna)
 2. Click **Fork** (top right)
 3. You now have your own copy under your account
 
 ::: notes
 Timing: 2 min
+Ask who are familiar with GitHub workflows?
 Explain that forking allows them to experiment without affecting the original repo.
 :::
 
@@ -245,9 +258,8 @@ Explain that forking allows them to experiment without affecting the original re
 
 ## Step 2: Make a Change
 
-* Edit the README
+* Edit the `rutgers.txt` file
 * Commit your changes with a meaningful message
-* Push to your fork
 
 ::: notes
 Timing: 3 min
@@ -266,6 +278,8 @@ Encourage small, safe changes to build confidence.
 ::: notes
 Timing: 5 min
 Live demo, walk through it together.
+Release title is concatenated with github repo for Zenodo title
+Release notes become Zenodo description
 :::
 
 ---
@@ -288,11 +302,13 @@ This one they do on their own.
 
 Look at successful uses of this mechanism:
 
-* [Zenodo record 18087438](https://zenodo.org/records/18087438)
-* [Zenodo record 5708827](https://zenodo.org/records/5708827)
-* [Zenodo record 5708345](https://zenodo.org/records/5708345)
+![](assets/instrument.png){width=100 style="vertical-align: middle;"} _Instrument: [Low-Cost IoT Water Sampler](https://doi.org/10.5281/zenodo.10257622)_
 
-Note to Steve - add screenshots of examples and reference at the beginning too. Maybe find examples of instruments, pipelines and analysis. Parallel slide 'where wil you use this?'
+![](assets/pipeline.png){width=100 style="vertical-align: middle;"} _Pipeline: [Tourmaline for eDNA analysis](https://doi.org/10.5281/zenodo.8144154)_
+
+![](assets/analysis.png){width=100 style="vertical-align: middle;"} _Analysis: [Using H3 Grids for Biodiversity Indicators](https://doi.org/10.5281/zenodo.15113966)_
+
+![](assets/documentation-svgrepo-com.png){width=100 style="vertical-align: middle;"} _Documentation: [Marine Data Mobilization Workshop](https://doi.org/10.5281/zenodo.7401979)_
 
 ::: notes
 Timing: 3 min
