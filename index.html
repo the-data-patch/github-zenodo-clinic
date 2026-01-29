@@ -145,6 +145,13 @@ Stephen Formel <a href="https://orcid.org/0000-0001-7418-1244" class="quarto-tit
 
   <p class="date">2026-01-29</p>
 </section>
+<section id="examples" class="slide level2 center">
+<h2>Examples</h2>
+<p><img data-src="assets/instrument.png" style="vertical-align: middle;" width="100"> <em>Instrument: <a href="https://doi.org/10.5281/zenodo.10257622">Low-Cost Water Sampler</a></em> <img data-src="assets/watersampler.jpeg" style="vertical-align: middle;" width="150"></p>
+<p><img data-src="assets/pipeline.png" style="vertical-align: middle;" width="100"> <em>Pipeline: <a href="https://doi.org/10.5281/zenodo.8144154">eDNA analysis</a></em> <img data-src="assets/Tourmaline.png" style="vertical-align: middle;" width="200"></p>
+<p><img data-src="assets/analysis.png" style="vertical-align: middle;" width="100"> <em>Analysis: <a href="https://doi.org/10.5281/zenodo.15113966">Biodiversity Indicators</a></em> <img data-src="assets/H3.png" style="vertical-align: middle;" width="120"></p>
+<p><img data-src="assets/documentation-svgrepo-com.png" style="vertical-align: middle;" width="100"> <em>Documentation: <a href="https://doi.org/10.5281/zenodo.7401979">Workshop</a></em> <img data-src="assets/smbd_workshop.png" style="vertical-align: middle;" width="150"></p>
+</section>
 <section id="why-publish-code" class="slide level2 center">
 <h2>Why publish code?</h2>
 <div class="columns">
@@ -222,8 +229,8 @@ Emphasize that this mirrors data publishing practices participants may already k
           display:block!important;
       }</style></aside>
 </section>
-<section id="is-not-an-archive" class="slide level2 center">
-<h2><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" width="225" style="vertical-align: middle;"> is not an archive</h2>
+<section id="github-is-not-an-archive" class="slide level2 center">
+<h2><img src="https://cdn.simpleicons.org/github/white" width="225" style="vertical-align: middle;"> GitHub is not an archive</h2>
 <ul>
 <li><em>Excellent for collaboration</em></li>
 <li><em>No preservation guarantee</em></li>
@@ -291,7 +298,7 @@ We are focusing on the GitHub integration. CERN == European Organization for Nuc
       }</style></aside>
 </section>
 <section id="model" class="slide level2 center">
-<h2><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" width="225" style="vertical-align: bottom;"> + <img src="https://about.zenodo.org/static/img/logos/zenodo-gradient-round.svg" width="400" style="vertical-align: middle;"> model</h2>
+<h2><img src="https://cdn.simpleicons.org/github/white" width="225" style="vertical-align: bottom;"> + <img src="https://about.zenodo.org/static/img/logos/zenodo-gradient-round.svg" width="400" style="vertical-align: middle;"> model</h2>
 <p><br> <em>GitHub: active development | where code lives</em></p>
 <p><em>Zenodo: frozen snapshots | where code is cited</em></p>
 <aside class="notes">
@@ -313,6 +320,7 @@ We are focusing on the GitHub integration. CERN == European Organization for Nuc
 <p><img data-src="assets/instrument.png" style="vertical-align: middle;" width="100"> <em>Instrument development</em></p>
 <p><img data-src="assets/pipeline.png" style="vertical-align: middle;" width="100"> <em>Pipeline development</em></p>
 <p><img data-src="assets/analysis.png" style="vertical-align: middle;" width="100"> <em>Analysis iteration</em></p>
+<p><img data-src="assets/documentation-svgrepo-com.png" style="vertical-align: middle;" width="100"> <em>Code-based documentation</em></p>
 <aside class="notes">
 <p>Timing: 2 min<br>
 Ask students to come up with examples</p>
@@ -353,7 +361,7 @@ This mirrors the Zenodo versioning explanation from the dataset clinic.</p>
 </section>
 <section id="pre-work" class="slide level2 center">
 <h2>Pre-work:</h2>
-<p><em>did you make a</em> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" width="100" style="vertical-align: middle;"> <em>account?</em></p>
+<p><em>did you make a</em> <img src="https://cdn.simpleicons.org/github/white" width="100" style="vertical-align: middle;"> <em>account?</em></p>
 <p><em>If not, do it <a href="https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github">here</a></em></p>
 <aside class="notes">
 <p>Timing: 3 min Set clear expectations: this is a hands-on exercise. Encourage participants to ask questions if stuck at any step. Put a thumbs up in shared notes for each step when you’re ready to move on</p>
@@ -372,12 +380,12 @@ This mirrors the Zenodo versioning explanation from the dataset clinic.</p>
 <section id="step-1-fork-the-repository" class="slide level2 center">
 <h2>Step 1: Fork the Repository</h2>
 <ol type="1">
-<li>Go to the example repo on GitHub</li>
+<li>Go to the example repo on GitHub (https://github.com/the-data-patch/do-watcha-wanna)</li>
 <li>Click <strong>Fork</strong> (top right)</li>
 <li>You now have your own copy under your account</li>
 </ol>
 <aside class="notes">
-<p>Timing: 2 min Explain that forking allows them to experiment without affecting the original repo.</p>
+<p>Timing: 2 min Ask who are familiar with GitHub workflows? Explain that forking allows them to experiment without affecting the original repo.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -393,9 +401,8 @@ This mirrors the Zenodo versioning explanation from the dataset clinic.</p>
 <section id="step-2-make-a-change" class="slide level2 center">
 <h2>Step 2: Make a Change</h2>
 <ul>
-<li>Edit the README</li>
+<li>Edit the <code>rutgers.txt</code> file</li>
 <li>Commit your changes with a meaningful message</li>
-<li>Push to your fork</li>
 </ul>
 <aside class="notes">
 <p>Timing: 3 min Encourage small, safe changes to build confidence.</p>
@@ -420,7 +427,7 @@ This mirrors the Zenodo versioning explanation from the dataset clinic.</p>
 <li>Zenodo generates a DOI for the release</li>
 </ol>
 <aside class="notes">
-<p>Timing: 5 min Live demo, walk through it together.</p>
+<p>Timing: 5 min Live demo, walk through it together. Release title is concatenated with github repo for Zenodo title Release notes become Zenodo description</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -457,12 +464,10 @@ This mirrors the Zenodo versioning explanation from the dataset clinic.</p>
 <section id="step-5-explore-examples" class="slide level2 center">
 <h2>Step 5: Explore Examples</h2>
 <p>Look at successful uses of this mechanism:</p>
-<ul>
-<li><a href="https://zenodo.org/records/18087438">Zenodo record 18087438</a></li>
-<li><a href="https://zenodo.org/records/5708827">Zenodo record 5708827</a></li>
-<li><a href="https://zenodo.org/records/5708345">Zenodo record 5708345</a></li>
-</ul>
-<p>Note to Steve - add screenshots of examples and reference at the beginning too. Maybe find examples of instruments, pipelines and analysis. Parallel slide ‘where wil you use this?’</p>
+<p><img data-src="assets/instrument.png" style="vertical-align: middle;" width="100"> <em>Instrument: <a href="https://doi.org/10.5281/zenodo.10257622">Low-Cost IoT Water Sampler</a></em></p>
+<p><img data-src="assets/pipeline.png" style="vertical-align: middle;" width="100"> <em>Pipeline: <a href="https://doi.org/10.5281/zenodo.8144154">Tourmaline for eDNA analysis</a></em></p>
+<p><img data-src="assets/analysis.png" style="vertical-align: middle;" width="100"> <em>Analysis: <a href="https://doi.org/10.5281/zenodo.15113966">Using H3 Grids for Biodiversity Indicators</a></em></p>
+<p><img data-src="assets/documentation-svgrepo-com.png" style="vertical-align: middle;" width="100"> <em>Documentation: <a href="https://doi.org/10.5281/zenodo.7401979">Marine Data Mobilization Workshop</a></em></p>
 <aside class="notes">
 <p>Timing: 3 min Point out how each release has its own DOI, while the concept DOI points to all versions.</p>
 <style type="text/css">
