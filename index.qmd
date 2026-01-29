@@ -6,8 +6,12 @@ author:
      orcid: 0000-0001-7418-1244
      affiliations:
         - name: "<img src='assets/the_data_patch_logo.png' style='height:60px; vertical-align:middle; margin-left:5px;'>"
-date: 2025-01-29
-format: revealjs
+date: "2026-01-29"
+format:
+  revealjs:
+    title-slide-attributes:
+      data-presentation-context: "Ocean Data Stewardship | Rutgers Operational Oceanography Program | Session #3"
+
 ---
 
 ## Why publish code? 

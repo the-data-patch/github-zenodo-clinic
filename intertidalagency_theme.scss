@@ -114,3 +114,26 @@ main {
     margin-bottom: 0.2rem; 
   }
 }
+
+// ===== BACKGROUND TOPO IMAGES =====
+.reveal .slides::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    url('https://images.squarespace-cdn.com/content/v1/66abbe11c36e24506f192287/d0819b40-2deb-4e16-9468-e526f0dc82be/home2_Intertidal_Topo01_Aqua.png?format=300w'),
+    url('https://images.squarespace-cdn.com/content/v1/66abbe11c36e24506f192287/511e7134-a0cf-4b95-9ba1-5ad82695a092/home1_Intertidal_Topo03_Aqua.png'),
+    url('https://images.squarespace-cdn.com/content/v1/66abbe11c36e24506f192287/6f3514db-4d85-4663-954e-61e2cf7c41f2/home3_Intertidal_Topo02_Aqua.png');
+  background-position: 
+    right top,
+    left top,
+    right bottom;
+  background-repeat: no-repeat;
+  background-size: auto 40%, auto 40%, auto 30%;
+  opacity: 0.2;
+  pointer-events: none;
+  z-index: -1;
+}
