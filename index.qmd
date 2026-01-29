@@ -5,7 +5,7 @@ author:
    - name: Stephen Formel
      orcid: 0000-0001-7418-1244
      affiliations:
-        - The Data Patch
+        - name: "<img src='assets/the_data_patch_logo.png' style='height:60px; vertical-align:middle; margin-left:5px;'>"
 date: 2025-01-29
 format: revealjs
 ---
@@ -17,15 +17,15 @@ format: revealjs
 <br> 
 
 ::: column
-#### 1 Better World
-![](assets/science_around_the_world.png){width=100 .float-left}
+### Better World
+![](assets/science_around_the_world.png){width=130 .float-left}
 ![](assets/fair.png){width=300}
 
 :::
 
 ::: column
-#### 2 Better Future
-![](assets/content_person.png){width=100 .float-left}
+### Better Future
+![](assets/content_person.png){width=80 .float-left}
 <div class="small-text">
 _make life easier!_
 <br>
@@ -34,10 +34,12 @@ _reduce self-loathing!_
 :::
 :::
 
+<br>
+
 ::: columns
 
 ::: column
-#### 3 Enable Science
+### Enable Science
 ![](assets/tetris.png){width=80 .float-left}
 <div class="small-text">
 _drive reuse!_
@@ -47,7 +49,7 @@ _and extension!_
 :::
 
 ::: column
-#### 4 Get Credit
+### Get Credit
 ![](assets/get_credit.png){width=80 .float-left}
 <div class="small-text">
 _credit is the currency of science!_

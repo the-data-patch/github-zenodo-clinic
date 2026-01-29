@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - assets/
 
 license:
   type: "CC BY-NC"
@@ -10,14 +12,14 @@ license:
 
 format:
   revealjs:
-    theme: simple
-    css: [thedatapatch_theme.scss, custom.css]
+    theme: [intertidalagency_theme.scss]
+    css: custom.css
     slide-number: true
     incremental: false
     transition: none
     center: true
     footer: |
-      © 2026 [The Data Patch](https://www.thedatapatch.com) <a href="https://www.thedatapatch.com" target="_blank"><img src="assets/the_data_patch_logo.png" style="height:50px; vertical-align:middle;"></a> License: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+      © 2026 [Intertidal Agency](www.intertidalagency.org/) <a href="https://www.intertidalagency.org/" target="_blank"><img src="assets/Intertidal-ProfilePic-Aqua-Bold.png" style="height:30px; vertical-align:middle;"></a> License: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
         
 
 

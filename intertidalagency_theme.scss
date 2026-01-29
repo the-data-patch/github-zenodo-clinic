@@ -10,6 +10,13 @@ $sand: #F3EDE4;
 $white: #ffffff;
 $black: #000000;
 
+// ===== REVEAL.JS THEME VARIABLES =====
+$backgroundColor: $wave;
+$mainColor: $white;
+$headingColor: $sand;
+$linkColor: $aqua;
+$linkColorHover: lighten($aqua, 15%);
+
 /*-- scss:rules --*/
 
 // ===== FONTS =====
@@ -37,11 +44,6 @@ $black: #000000;
   color: $white;
 }
 
-.reveal .slides {
-  background: $wave;
-  background-color: $wave;
-}
-
 .reveal .slide-background {
   background: $wave !important;
   background-color: $wave !important;
@@ -51,14 +53,20 @@ $black: #000000;
 body {
   font-family: "Public Sans", system-ui, -apple-system, "Segoe UI", Roboto,
                "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  color: $sand;
+  color: $white;
 }
 
-.reveal p,
-.reveal li,
-.reveal td,
-.reveal th,
-.reveal div {
+// Subtitle styling
+.reveal .subtitle,
+p.subtitle {
+  font-style: italic;
+}
+
+.reveal .slides p,
+.reveal .slides li,
+.reveal .slides td,
+.reveal .slides th,
+.reveal .slides div {
   color: $white;
 }
 
@@ -79,7 +87,7 @@ h3, .reveal h3 {
                "Liberation Mono", "Courier New", monospace;
   letter-spacing: 3px;
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
   color: $sand !important;
 }
