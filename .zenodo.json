@@ -1,6 +1,6 @@
 {
   "title": "Publishing Code: Using GitHub releases and Zenodo DOIs to create citable code snapshots",
-  "description": "Presentation materials for Ocean Data Stewardship workshop at Rutgers Operational Oceanography Program, Session #3. Covers GitHub releases, Zenodo integration, and creating citable code snapshots.",
+  "description": "Presentation materials for Ocean Data Stewardship workshop at Rutgers Operational Oceanography Program, Session #3. Covers GitHub releases, Zenodo integration, and creating citable code snapshots. Rendered slides can be viewed at https://the-data-patch.github.io/github-zenodo-clinic",
   "creators": [
     {
       "name": "Formel, Stephen",
